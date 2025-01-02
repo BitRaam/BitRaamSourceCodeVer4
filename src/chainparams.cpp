@@ -46,9 +46,9 @@ public:
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime    = 1399919106;
+        genesis.nTime    = 1735689600;
         genesis.nBits    = 0x1e0fffff;
-        genesis.nNonce   = 623802;
+        genesis.nNonce   = 1015127;
 
         hashGenesisBlock = genesis.GetHash();
         
@@ -57,7 +57,7 @@ public:
         printf("%x\n", bnProofOfWorkLimit.GetCompact());
         genesis.print();
         
-        assert(hashGenesisBlock == uint256("0x00000fbfa7fda324e0c55f6f45785a3c5d661593b23f8865f0f475ce9c0b5a50"));
+        assert(hashGenesisBlock == uint256("0x0000055d0a3daa9c4b0d3629d3e9ba64f3cfa29643da9939b889d9d69a736b4e"));
         assert(genesis.hashMerkleRoot == uint256("0x2cec01a5fba766ee1d863fcdecec3695219008469eb0dbc1a8fa512bb5fe5127"));
 
 	vSeeds.push_back(CDNSSeedData("bitraam.org", "seednode.bitraam.org"));
