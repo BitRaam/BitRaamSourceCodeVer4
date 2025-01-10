@@ -12,7 +12,7 @@
 #define CLIENT_VERSION_BUILD       0
 
 // bitraam client version - intended for display purpose ONLY
-#define BITRAAM_VERSION_MAJOR       0
+#define BITRAAM_VERSION_MAJOR       4
 #define BITRAAM_VERSION_MINOR       1
 #define BITRAAM_VERSION_REVISION    0
 #define BITRAAM_VERSION_BUILD       0
