@@ -13,8 +13,8 @@
 
 // bitraam client version - intended for display purpose ONLY
 #define BITRAAM_VERSION_MAJOR       4
-#define BITRAAM_VERSION_MINOR       1
-#define BITRAAM_VERSION_REVISION    0
+#define BITRAAM_VERSION_MINOR       2
+#define BITRAAM_VERSION_REVISION    5
 #define BITRAAM_VERSION_BUILD       0
 
 // Set to true for release, false for prerelease or test build
